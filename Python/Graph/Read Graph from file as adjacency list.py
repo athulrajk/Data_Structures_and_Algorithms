@@ -1,3 +1,13 @@
+"""FILE FORMAT
+
+no_of_test_cases
+no_of_vertices no_of_edges
+first_vertex second_vertex weight
+.
+.
+.
+"""
+
 #main
 if __name__=='__main__':
     #open the read and write files
