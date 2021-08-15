@@ -1,3 +1,8 @@
+/*
+if antiparallel edges occur create a virtual node, connect it to the two vertex with both weights equal to edge weight
+if more than one source is present, create a virtual super source connect it to the actual sources and make the edge weight as infinity
+if more than one sink is present, create a virtual super sink connect it to the actual sinks and make the edge weigth as infinity 
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
