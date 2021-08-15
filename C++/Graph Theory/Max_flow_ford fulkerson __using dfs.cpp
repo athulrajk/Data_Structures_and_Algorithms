@@ -2,9 +2,9 @@
 using namespace std;
 
 const int V=6;
-int Flow_Graph[V][V]={{ 0, 16, 13, 0, 0, 0 }, { 0, 0, 16, 12, 0, 0 },
-                      { 0, 4, 0, 0, 30, 0 },  { 0, 0, 9, 0, 0, 20 },
-                      { 0, 0, 0, 7, 0, 27 },   { 0, 0, 0, 0, 0, 0 } };
+int Flow_Graph[V][V]={{ 0, 16, 13, 0, 0, 0 }, { 0, 0, 0, 12, 0, 0 },
+                      { 0, 4, 0, 0, 14, 0 },  { 0, 0, 9, 0, 0, 20 },
+                      { 0, 0, 0, 7, 0, 4 },   { 0, 0, 0, 0, 0, 0 } };
 
 bool DFS(int rGraph[V][V],int src,int snk,int parent[]){
 	int visited[V]={0};
